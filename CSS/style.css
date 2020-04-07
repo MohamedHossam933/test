@@ -5,20 +5,26 @@ body,html
 
 body
 {
-        background-image: url("../cover.jpg");
+        background-image: url("../cover-1.jpg");
+        position: relative;
         background-size: cover;
+        margin-left: auto;
+        margin-right: auto;
+        
 }
+
+
 
 .log-in
 {
     width: 50%;
     margin-bottom: 5%;
-    background: rgba(108,136 ,207 , 0.5);
+    background: rgba(140, 9, 255, 0.5);
     margin-left: 25%;
     margin-top: 8%;   
-    border: 2px solid #fff;
-    border-radius: 10px;
-    box-shadow: 2px 5px 2px #fff;
+    
+    border-radius: 15px;
+    
 }
 /*========================================================*/
 
@@ -130,7 +136,7 @@ i
     background-color: #333;
     color: #0fe7e7;
     text-align: center;
-    margin-top: 12%;
+    
     padding-top: 1%;
     padding-bottom: 1%;
 }
@@ -211,8 +217,15 @@ i
     .col-25, .col-75, .copy
     {
            width: 100% !important;
-           margin-top: 38%;
+           
            height: 53px;
            padding-top: 2.5%;
     }
+}
+
+@font-face
+{
+    font-family: "FORTE";
+    src: url("Fonts/FORTE.TTF");
+    font-style: normal;
 }
